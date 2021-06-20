@@ -7,3 +7,8 @@ add_executable(${PROJECT_NAME}
 
 target_include_directories(${PROJECT_NAME} PUBLIC
 	"${PROJECT_LIB_FOLDER}")
+
+target_link_libraries(${PROJECT_NAME} PUBLIC
+	${REQUIRED_LIBS})
+target_include_directories(${PROJECT_NAME} PUBLIC
+	${REQUIRED_INCS})
