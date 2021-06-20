@@ -23,3 +23,9 @@ the resulting boards to choose a path to go down
 no youre better off reading articles or looking
 at those resources i put in a comment somewhere
 the code goddamn sucks
+
+### why c style naming conventions?
+snake_case is the best case, change my mind
+
+### your directory structure is garbage
+i literally do not care go away
