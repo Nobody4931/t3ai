@@ -5,6 +5,7 @@ of markers in a row (at the cost of your cpu)
 
 ## dependencies
 * [spdlog](https://github.com/gabime/spdlog "spdlog")
+* [json](https://github.com/nlohmann/json "json")
 
 ## todo
 * make it into a discord selfbot to cyberbully
