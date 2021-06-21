@@ -2,7 +2,6 @@
  * t3ai.cpp - tic tac toe ai source
  */
 
-#include <iostream>
 #include <algorithm>
 #include "t3ai.hpp"
 

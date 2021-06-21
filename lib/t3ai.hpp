@@ -5,9 +5,6 @@
  * no way in hell a tic tac toe board would ever have
  * over 256 slots, but 8 bytes is a char so fuck c++
  *
- * NOTES:
- * - none
- *
  */
 
 #pragma once
