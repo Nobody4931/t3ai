@@ -4,6 +4,7 @@
  * currently testing dependencies while
  * adding them via git submodules
  *
+ * fmt api docs: https://fmt.dev/
  * spdlog api docs: https://github.com/gabime/spdlog/wiki/1.-QuickStart
  * json api docs: https://nlohmann.github.io/json
  *
