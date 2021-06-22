@@ -16,13 +16,16 @@ set(PROJECT_DEP_FOLDER "${CMAKE_CURRENT_SOURCE_DIR}/dep")
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
 find_package(Spdlog REQUIRED MODULE)
 find_package(JSON REQUIRED MODULE)
+find_package(Asio REQUIRED MODULE)
 
 set(REQUIRED_LIBS
 	Spdlog::Spdlog
-	JSON::JSON)
+	JSON::JSON
+	Asio::Asio)
 
 set(REQUIRED_INCS
 	${Spdlog_INCLUDE_DIR}
-	${JSON_INCLUDE_DIR})
+	${JSON_INCLUDE_DIR}
+	${Asio_INCLUDE_DIR})
 
 add_subdirectory(src)
