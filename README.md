@@ -4,8 +4,12 @@ works on all boards of any size and any amount
 of markers in a row (at the cost of your cpu)
 
 ## dependencies
+probably shouldve used static linking instead of just
+including the headers but whatever i guess
+
 * [spdlog](https://github.com/gabime/spdlog "spdlog")
 * [json](https://github.com/nlohmann/json "json")
+* [asio](https://github.com/chriskohlhoff/asio "asio")
 
 ## todo
 * make it into a discord selfbot to cyberbully
